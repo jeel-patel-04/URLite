@@ -1,28 +1,18 @@
-# 🔗 NextLink
+# URLite - URL Shortener
 
-NextLink is a personalized link management platform that allows users to create and share a single profile page with multiple important links — perfect for portfolios, social media, blogs, or brand profiles.
+**URLite** is a modern URL shortening service built with **Next.js 15**, designed to convert long URLs into short, shareable links. This project demonstrates the power of Next.js 15 in building efficient and scalable applications.
 
----
+## 🚀 Features
 
+- **Shorten URLs**: Convert long URLs into short, easy-to-share links.
+- **Custom Aliases**: Optionally create custom short URLs.
+- **Analytics**: Track the number of clicks for each shortened URL.
+- **Expiration**: Set expiration dates for shortened links.
+- **API Access**: Programmatic access to shortening and analytics features.
 
-## 📦 Tech Stack
+## 🛠️ Technologies Used
 
-- **Frontend**: Next.js (App Router), Tailwind CSS
-- **Backend**: Next.js API Routes (Server Components)
-- **Database**: MongoDB + Mongoose
-- **Authentication**: NextAuth.js
-- **Deployment**: Vercel
-
----
-
-## ✨ Features
-
-- 🔐 Secure user registration and login via NextAuth
-- 🔗 Add, edit, and delete unlimited links
-- 👤 Unique public profile for each user: `nextlink.vercel.app/yourname`
-- 🧑‍💻 Mobile-first responsive design with Tailwind CSS
-- 🌙 Light/Dark mode toggle (optional)
-- 🔍 SEO-friendly page structure
-
----
-
+- **Frontend & Backend**: Next.js 15
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Deployment**: Vercel (for Next.js applications)
