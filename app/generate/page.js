@@ -4,7 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
 
-const Page = () => {
+const page = () => {
   const [url, seturl] = useState("")
   const [shorturl, setshorturl] = useState("")
   const [generated, setgenerated] = useState("")
@@ -56,7 +56,8 @@ const Page = () => {
   )
 }
 
-export default Page
+export default page
+
 
 
 
