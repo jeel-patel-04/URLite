@@ -47,13 +47,14 @@ const Page = () => {
         <button onClick={generate} className='text-xs md:text-lg bg-purple-500 hover:bg-purple-700 rounded shadow-xl p-1.5 py-1 my-3 font-bold text-white'>Generate</button>
       </div>
       {generated && <><code>
-        <span className='text-[10px] md:text-[16px]'>
+        <span className='text-[10px] md:text-[14px]'>
       Your Link :
         </span>
-        <Link className='text-[10px] md:text-[16px] text-purple-700 md:m-2' href={generated} target='_blank'>{generated}</Link>
+        <Link className='text-[10px] md:text-[14px] text-purple-700 md:m-2' href={generated} target='_blank'>{generated}</Link>
         </code></>}
     </div>
   )
 }
 
 export default Page
+
