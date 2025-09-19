@@ -53,7 +53,7 @@ URLite/
 
 ---
 
-- **Live Project:** [https://urllite.vercel.app](https://urllite.vercel.app)
+## Live Project: [https://urllite.vercel.app](https://urllite.vercel.app)
 
 ---
 
