@@ -35,7 +35,6 @@ URLite/
 ├── README.md
 └── tailwind.config.js # TailwindCSS config
 ```
----
 
 ---
 
