@@ -23,6 +23,7 @@ This project uses **React** for the frontend, **Express + Node.js** for the back
 ---
 
 ## 📂 Project Structure
+```
 url-lite/
 ├── backend/ # Express + MongoDB backend
 │ └── server.js # API routes
@@ -30,7 +31,7 @@ url-lite/
 │ └── src/
 │ └── App.jsx # Main App component
 └── README.md
-
+```
 ---
 
 ## 📌 Future Improvements
