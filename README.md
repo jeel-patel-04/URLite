@@ -1,44 +1,59 @@
-# 🔗 URL Lite – URL Shortener & Manager
+# 🔗 URLite – Modern URL Shortener
 
-A simple **MERN-based URL management tool** that allows you to shorten, store, and manage your URLs easily.  
-This project uses **React** for the frontend, **Express + Node.js** for the backend, and **MongoDB** for the database.
+A modern **Next.js + MongoDB full-stack project** that turns long messy URLs into short, clean links in seconds ⚡.  
+Deployed live on **Vercel** for instant access.
 
 ---
 
 ## 🚀 Features
-- Shorten long URLs for easy sharing.
-- Store and manage URLs in a simple dashboard.
-- Copy shortened URLs with one click.
-- Responsive and lightweight interface.
-- Persists data in MongoDB.
+- Shorten long URLs into clean, shareable links.
+- Fast redirection from shortened URLs to original links.
+- Responsive and modern UI with TailwindCSS.
+- Persists all links in **MongoDB Atlas**.
+- Easy deployment with Vercel.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: React, TailwindCSS (or CSS), Axios
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (local or Atlas)
-- **Icons / UI**: Any lightweight icon library
+- **Frontend:** Next.js App Router + TailwindCSS  
+- **Backend:** Next.js API Routes  
+- **Database:** MongoDB Atlas  
+- **Deployment:** Vercel  
 
 ---
 
 ## 📂 Project Structure
+
 ```
-url-lite/
-├── backend/ # Express + MongoDB backend
-│ └── server.js # API routes
-├── frontend/ # React frontend
-│ └── src/
-│ └── App.jsx # Main App component
-└── README.md
+URLite/
+├── app/ # Next.js App Router frontend pages/components
+│ └── page.jsx # Main page for URL shortening
+├── api/ # Next.js API Routes
+│ ├── shorten.js # Endpoint to create short URLs
+│ └── redirect.js # Endpoint to handle redirection
+├── lib/ # Helper functions (DB connection, etc.)
+├── README.md
+└── tailwind.config.js # TailwindCSS config
 ```
 ---
 
+---
+
+## 💡 Key Learnings
+- Managing **client + server logic** in Next.js.
+- Securely connecting to **MongoDB Atlas**.
+- Deploying a full-stack project on **Vercel**.
+
+---
+
 ## 📌 Future Improvements
-- User authentication (JWT-based login/signup).
-- Analytics: Track number of clicks per URL.
-- Custom aliases for shortened URLs.
-- Dark mode toggle.
+- Click analytics for shortened URLs.  
+- QR code generation for links.  
+- User authentication for managing personal links.  
+
+---
+
+- **Live Project:** [https://urllite.vercel.app](https://urllite.vercel.app)
 
 ---
 
